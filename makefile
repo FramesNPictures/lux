@@ -1,7 +1,7 @@
 all: vendor etc cleanup
 
 vendor:
-	composer require framesnpictures/lux
+	composer require framesnpictures/lux dev-master
 	composer install
 
 etc: vendor

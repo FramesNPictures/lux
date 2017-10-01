@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Provider;
+namespace Fnp\Lux;
 
 use Laravel\Lumen\Application as LumenApplication;
 

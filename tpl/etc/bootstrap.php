@@ -19,7 +19,7 @@ try {
 |
 */
 
-$app = new \App\Application\Application(
+$app = new \Fnp\Lux\Application(
     realpath(__DIR__.'/../')
 );
 
@@ -78,7 +78,7 @@ $app->singleton(
 |
 */
 
-$app->register(\App\Application\Provider::class);
+$app->register(\App\Provider\Provider::class);
 // $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
