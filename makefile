@@ -1,4 +1,4 @@
-all: vendor etc
+all: vendor etc cleanup
 
 vendor:
 	composer require framesnpictures/lux
@@ -6,3 +6,6 @@ vendor:
 
 etc: vendor
 	cp -R vendor/framesnpictures/lux/tpl/* ./
+
+cleanup: vendor
+	composer install

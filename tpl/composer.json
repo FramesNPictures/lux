@@ -2,14 +2,6 @@
   "config": {
     "optimize-autoloader": true
   },
-  "name": "laravel/lumen",
-  "description": "The Laravel Lumen Framework.",
-  "keywords": [
-    "framework",
-    "laravel",
-    "lumen"
-  ],
-  "license": "MIT",
   "type": "project",
   "require": {
     "php": ">=7.0",
