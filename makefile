@@ -6,6 +6,7 @@ vendor:
 
 etc: vendor
 	cp -R vendor/framesnpictures/lux/tpl/* ./
+	rm composer.lock
 
 cleanup: vendor
 	composer install
