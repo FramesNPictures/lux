@@ -1,0 +1,19 @@
+{
+    "name": "framesnpictures/lux",
+    "description": "Mix of Lumen and Laravel in covenient non cluttered package",
+    "type": "library",
+    "require": {
+        "laravel/lumen": "^5.5"
+    },
+    "authors": [
+        {
+            "name": "Chris Cynarski",
+            "email": "krzysztof@cynarski.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fnp\\Lux\\": "lux/"
+        }
+    }
+}
